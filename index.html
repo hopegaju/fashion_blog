@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Fshion Blog</title>
 </head>
 <body>
+    <div class="icons">
+        <p>icons</p>
+    </div>
     <!-- header or first part -->
-    <header>
+    <header> 
         <h1>JANE BLOGLIFE</h1>
         <p>Welcome to the blog of <span>Jane's world</span></p>
     </header>
 
     <!-- blog intoduction -->
-    <section class="first-part">
-        <p>jane's </p>
-        <p class="fashion-bog"> FASHION BLOG</p>
-        <button type="Subscribe">Subscribe</button>
-    </section>
+    <div class="first-part">
+        <!-- <img src="./assets/janeweb.jpg" alt=""> -->
+        <div>
+            <p>jane's </p>
+            <p id="fashion-bog"> FASHION BLOG</p>
+            <button  id="sus" type="Subscribe">Subscribe</button>
+        </div>
+    </div>
 
     <!-- First image card with description -->
     <section class="second-part">
@@ -47,13 +54,15 @@
         <div class="sidebar">
             <!-- Profile cards -->
             <div id="profile_card">
-                <h3>My name</h3>
-                <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                <h3 id="title">My name</h3>
+                <div>
+                    <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                </div>   
             </div>
 
             <!-- popular cards -->
             <div class="popular posts">
-                <h3>Popular posts</h3>
+                <h3 id="title">Popular posts</h3>
                 <!-- card 1 -->
                 <div class="post_item">
                     <img src="./assets/avatar_smoke web.jpg" alt="smoke man image">
@@ -66,7 +75,7 @@
                 <div class="post_item">
                     <img src="./assets/avatar_smoke web.jpg" alt="smoke man image">
                     <div>
-                        <h3>Denim</h3>
+                        <h3 >Denim</h3>
                         <p>Sed mattis nunc                        </p>
                     </div>
                 </div>
@@ -90,7 +99,7 @@
 
             <!-- Advertise -->
             <div class="ad">
-                <h3>Advertise</h3>
+                <h3 id="title">Advertise</h3>
                 <div>
                     <p>Your AD Here</p>
                 </div>
@@ -98,7 +107,7 @@
 
             <!-- tags -->
             <div class="tag">
-                <h3>Tags</h3>
+                <h3 id="title">Tags</h3>
                 <div id="tags">
                     <p>Fashion</p>
                 </div>
@@ -154,6 +163,7 @@
 
             <!-- Inspiration -->
              <div>
+                <h3 id="title">Inspiration</h3>
                 <img src="./assets/jeans web.jpg" alt="">
                 <img src="./assets/avatar_hat web.jpg" alt="">
                 <img src="./assets/team1 web.jpg" alt="">
@@ -162,12 +172,13 @@
 
              <!-- Follow me  -->
              <div class="follow">
-                <h3>Follow</h3>
+                <h3 id="title">Follow</h3>
+                <p>icons</p>
             </div>
 
             <!-- Subscribe -->
             <div class="sub">
-                <h3>Subscribe</h3>
+                <h3 id="title">Subscribe</h3>
                 <div>
                     <p>Enter your e-mail below and get notified on the latest blog posts.</p>
                     <input type="Text" name="" id="" placeholder="Enter e-mail">
